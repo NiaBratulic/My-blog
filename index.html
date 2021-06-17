@@ -1,70 +1,64 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-
-    <title>My Favourite Hobby:Coding,Gaming and football</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 
-
 <body>
-    <ul class="menu">
-        <li class="links"><a href="#welcome">About</a> </li>
-        <li class="links"><a href="#apps">Apps</a></li>
-        <li class="links"><a href="#games">Games</a></li>
-        <li class="links"><a href="#chatbot">ChatBot</a></li>
-        <li class="links">Contact</li>
-    </ul>
 
-    <section id="welcome" class="parallex-container">
-        <div class="parallex-inner">
-            <img src="https://miro.medium.com/max/4960/1*BXzBD620TZdsjL41AY8pfQ.jpeg" class="profile">
-            <h1>I AM<br><span id="name">Nia</span></h1>
-            <h2>my favourite hobby is coding,Gaming and football</h2>
+    <div class="container">
+
+        <section id="app">
+            <h1>Apps</h1>
+            <div class="line"></div>
+            <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/AmAIOlod-80aGvVFcBdbfjebPGUlVaYjI8ECZcJtZks/embed"></iframe>
+            <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/U9AQsuLnTixFr5caYUBM9qmkuaPCvmuWblFMcUPrC14/embed"></iframe>
+        </section>
+
+        <h2>click on the games to explore!</h2>
+        <h5>these games are built on game lab,click on these games to play!</h5>
+
+        <div id="myCarousel" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center><a href="#" target="_blank">
+                            <img src="Winne_Pooh.png" class="img-responsive">
+                        </a>
+                        <div class="carousel-content">
+                            <p>winnie the pooh</p>
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center><a href="#" target="_blank">
+                            <img src="Car_game.png" class="img-responsive">
+                        </a>
+                        <div class="carousel-content">
+                            <p>Car Game</p>
+                        </div>
+                    </center>
+                </div>
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left">
+                    </span></a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right">
+                    </span></a>
+
+            </div>
+
+
+
+
+
         </div>
-    </section>
-    <section id="bio">
-        <h1>HI!</h1>
-        <div class="line"></div>
-        <p>Games provide a 23 percent gain over traditional learning.
-            Games are great for language gains.Reading gains are inherent to gaming, but choice is a key factor.67% of all programming jobs are in industries outside of technology.A website consists of a variety of different coding languages. Almost anything powered by electricity requires code.</p>
-    </section>
-
-
-    <section id="apps">
-        <h1>APPS</h1>
-        <div class="line"></div>
-        <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/aLIkWySo3L53j_05JSsHnAI-jHDx4eioaeitpzabM2A/embed"></iframe>
-        <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/iypU3KU1iYQ1exu1o5HuMzLr3nH_77dwmPLRVmTAJAA/embed"></iframe>
-    </section>
-
-    <section id="games">
-        <h1>GAMES</h1>
-        <div class="line"></div>
-        <br>
-        <br>
-        <span><a href="https://studio.code.org/projects/spritelab/SNqarvG_DzWiay7D1dTCFobdv589uzGwKpugKlGWDVw" target="_blank">
-
-                <img id="gameimg" src="img%20games1coin.png">
-            </a></span>
-        <span> <a href="https://studio.code.org/projects/spritelab/39pHyr55y0kFYu_CqUNBfzgBx-y4SfY1BshkuTK3ddo" target="_blank">
-                <img id="gameimg" src="img%20games2junkfood.png">
-            </a></span>
-    </section>
-
-    <section id="chatbot">
-        <h1>CHATBOT</h1>
-        <div class="line"></div>
-        <iframe allow="microphone;" width="350" height="430" src="https://console.dialogflow.com/api-client/demo/embedded/4896b384-0dc3-4c27-91a1-785f5686fa07">
-
-        </iframe>
-        <iframe allow="microphone;" width="350" height="430" src="https://console.dialogflow.com/api-client/demo/embedded/41c8ba16-c694-45ea-a643-4862b6a1fe3c">
-        </iframe>
-
-
-
-    </section>
+    </div>
 
 </body>
 
